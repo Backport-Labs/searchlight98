@@ -81,6 +81,8 @@ programs, startup entries and documents.
   not the Windows 9x specifics involved.
 - **Files.** Text files use Windows line endings. Files that contain accented characters and are
   read on Windows 9x use the Windows-1252 character set. See `.gitattributes`.
+- **Workflows.** An action is named by the full commit of a release, with the version in a
+  comment after it. Dependabot proposes updates within the major version in use.
 - **User interface text.** Short, plain sentences. The user guide in `app\README.TXT` is updated
   together with the feature it describes.
 
