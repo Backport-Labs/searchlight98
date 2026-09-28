@@ -4,7 +4,7 @@
 ; or run build\build.ps1, which compiles SLIGHT98.EXE first.
 
 #define AppName    "Searchlight 98"
-#define AppVersion "0.3.2"
+#define AppVersion "0.3.3"
 
 [Setup]
 AppName={#AppName}
