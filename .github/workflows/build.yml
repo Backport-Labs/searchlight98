@@ -1,0 +1,67 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get the compiler and the setup builder
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $ProgressPreference = 'SilentlyContinue'
+          $tools = Join-Path $env:RUNNER_TEMP 'tools'
+          New-Item -ItemType Directory -Force $tools | Out-Null
+
+          function Get-Checked([string[]]$Urls, [string]$File, [string]$Sha256) {
+              foreach ($url in $Urls) {
+                  try { Invoke-WebRequest $url -OutFile $File -TimeoutSec 120; break }
+                  catch { Write-Host "Not available: $url" }
+              }
+              if (-not (Test-Path $File)) { throw "Could not download $File" }
+              $hash = (Get-FileHash $File -Algorithm SHA256).Hash
+              if ($hash -ne $Sha256) { throw "Checksum of $File is $hash, expected $Sha256" }
+          }
+
+          Get-Checked @(
+              'http://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27-win32-bin.zip',
+              'http://download.savannah.nongnu.org/releases/tinycc/tcc-0.9.27-win32-bin.zip'
+          ) "$tools\tcc.zip" '02E2BFE8C272A549B15E4BFA4507BD7E05304692AF1761DB6C1E8E88AF675651'
+          Expand-Archive "$tools\tcc.zip" "$tools\tcc" -Force
+
+          Get-Checked @(
+              'https://files.jrsoftware.org/is/5/isetup-5.4.3.exe'
+          ) "$tools\isetup.exe" '16CC5BF9543674002C35E1FDD1B98E902BE07F4E703C6C90CE156FE7F0268B72'
+          $setup = Start-Process "$tools\isetup.exe" -ArgumentList '/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART', "/DIR=$tools\inno" -Wait -PassThru
+          if ($setup.ExitCode -ne 0) { throw "Inno Setup could not be installed (exit code $($setup.ExitCode))" }
+
+      - name: Build and run the self-test
+        shell: powershell
+        run: |
+          $tools = Join-Path $env:RUNNER_TEMP 'tools'
+          .\build\build.ps1 -Tcc "$tools\tcc\tcc\tcc.exe" -Iscc "$tools\inno\ISCC.exe"
+
+      - name: Keep the self-test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selftest
+          path: build/out/selftest/SELFTEST.OUT
+          if-no-files-found: ignore
+
+      - name: Keep the setup program
+        uses: actions/upload-artifact@v4
+        with:
+          name: SL98SETUP
+          path: dist/SL98SETUP.EXE

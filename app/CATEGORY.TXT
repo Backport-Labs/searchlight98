@@ -1,0 +1,10 @@
+# Searchlight 98 - move a program to another group, or hide it.
+# Use the name exactly as Searchlight shows it, then = and the group.
+# Groups: Games, Internet, Office, Media & Graphics, Development,
+#         Utilities, Accessories, System, Other
+# Any other group name creates a new group.
+# Use =hide to remove an entry from Searchlight.
+#
+# Examples:
+# Microsoft Photo Editor=Media & Graphics
+# Online Services=hide

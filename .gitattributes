@@ -1,0 +1,12 @@
+# These files are read on Windows 95 and 98. In the working folder they keep
+# Windows line endings and, where they have accented letters, the Windows-1252
+# character set that those systems use. Git stores them as UTF-8, so they
+# read correctly on GitHub as well.
+* text=auto eol=crlf
+*.BMP binary
+*.ICO binary
+*.png binary
+LICENSE.TXT            text eol=crlf working-tree-encoding=CP1252
+installer/SLIGHT98.ISS text eol=crlf working-tree-encoding=CP1252
+tests/TESTS.TXT        text eol=crlf working-tree-encoding=CP1252
+tests/EXPECTED.OUT     text eol=crlf working-tree-encoding=CP1252

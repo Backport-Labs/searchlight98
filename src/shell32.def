@@ -1,0 +1,10 @@
+LIBRARY shell32.dll
+
+EXPORTS
+SHGetFileInfoA
+ExtractIconExA
+Shell_NotifyIconA
+ShellExecuteA
+SHGetSpecialFolderLocation
+SHGetPathFromIDListA
+ShellExecuteExA

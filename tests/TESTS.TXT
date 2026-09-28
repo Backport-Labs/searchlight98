@@ -1,0 +1,260 @@
+C| EA SPORTS|FIFA 99
+C| EA SPORTS|World Cup 98
+C| Eidos Interactive|Commandos
+C| Maxis The Sims|The Sims
+C| SimCity 3000 Unlimited|SimCity 3000 Unlimited
+C| Microsoft Games Midtown Madness 2|Midtown Madness 2
+C| Microsoft Games|Age of Empires II
+C||Duke Nukem 3D
+C| Core Design|Tomb Raider II
+C| Accessories Games|Solitaire
+C| Take2|Black Dahlia
+C||PC Futbol 6
+C||Internet Explorer
+C||Outlook Express
+C| Netscape Communicator|Netscape Communicator
+C| ICQ|ICQ
+C||AOL Instant Messenger (TM)
+C| mIRC|mIRC
+C||Opera 5
+C| RetroZilla|RetroZilla
+C||Napster Music Community
+C||Publish
+C||Microsoft Word
+C||Microsoft Excel
+C||Microsoft Outlook
+C||Microsoft Access
+C| WordPerfect Office 2000|WordPerfect 9
+C| Quicken|Quicken 2000
+C||Microsoft Money
+C| Microsoft Reference|Encarta Encyclopedia 2000
+C||Acrobat Reader 5.0
+C| Broderbund|The Print Shop
+C| Winamp|Winamp
+C| Sonique|Start Sonique
+C| Real|RealPlayer Basic
+C| QuickTime|QuickTime Player
+C||Windows Media Player
+C||musicmatch JUKEBOX
+C| ACD Systems|ACDSee 32
+C| Jasc Software|Paint Shop Pro 7
+C| Adobe|Adobe Photoshop 5.5
+C| Ahead Nero|Nero - Burning Rom
+C||DAEMON Tools
+C||The Playa
+C| Microsoft Visual Studio 6.0|Microsoft Visual Basic 6.0
+C||MSDN Library - October 2001
+C| Borland Delphi 6|Delphi 6
+C||Free Pascal IDE
+C||UltraEdit-32
+C||EditPlus 2
+C||Java Web Start
+C| Python 2.5|Python (command line)
+C| Macromedia Dreamweaver 4|Dreamweaver 4
+C| WinRAR|WinRAR
+C||Total Commander
+C| MadOnion.com|3DMark2001 SE
+C| Norton SystemWorks|Norton Utilities
+C||WinZip
+C| Accessories|Notepad
+C| Accessories|Calculator
+C| Accessories|Paint
+C| Accessories System Tools|ScanDisk
+C| Accessories System Tools|Disk Defragmenter
+C||Windows Explorer
+C||MS-DOS Prompt
+C||Windows Update
+C| Jasc Software|Animation Shop 3
+C| JRun|JRun Administrator
+C||JVM Wizard
+C||Macromedia Extension Manager
+C||Personal Web Manager
+C||Firebird Control Panel
+C| Microsoft Visual Studio 6.0 Tools|ActiveX Control Test Container
+C| Microsoft Visual Studio 6.0|Microsoft Visual C++ 6.0
+C| Microsoft Games|Age of Empires
+C||Go!Zilla
+C||K-Meleon
+C| Accessories System Tools|Dr. Watson
+C||WS_FTP LE
+C||mIRC
+C||Paint Shop Pro 7
+C| Accessories|Imaging
+C||Zip Magic
+C||Unzipper
+C||Rainbow Six
+C||Rain
+C||Jukebox
+C||The Wordsmith
+C| Accessories|Wordpad
+C||Chatterbox
+C||Chat
+C||Simsalabim
+C||PC Fútbol 6
+C| Vendor|Something Unknown
+C| Accessories Games|3D Pinball
+C| Accessories Accessibility|Accessibility Wizard
+C||Tweak UI
+C| Borland C++Builder 5|C++Builder 5
+K|Uninstall Winamp
+K|Readme
+K|Winamp Help
+K|Release Notes
+K|Winamp on the Web
+K|ICQ Web Site
+K|License
+K|Setup
+K|Winamp
+K|Helpful Tool
+K|Microsoft Word
+K|Registry Editor
+K|Online
+K|Apache Docs Online
+K|Remove
+K|Setup Wizard
+K|Install
+K|InstallShield Tool
+K|Docs
+K|Doctor
+K|Whats New
+K|What's New
+K|Licence
+K|Removable Disk
+S
+Q|win
+Q|wina
+Q|fifa
+Q|mm
+Q|aoe
+Q|resolution
+Q|uninstall
+Q|word
+Q|visual basic
+Q|dos
+Q|sh
+Q|device
+Q|photo
+Q|cal
+Q|zzz
+Q|a
+Q|ms
+Q|net
+Q|c++
+Q|paint shop
+Q|games
+Q|settings
+Q|office
+Q|dx
+Q|reg
+Q|shut down
+P|0|Winamp
+P|1|FIFA 99
+P|0|The Sims
+P|9|Notepad
+P|2|Age of Empires II
+P|0|Solitaire
+P|0|Notepad
+P|5|Notepad
+P|3|The Sims
+P|1|Winamp
+U|1
+U|7
+P|4|Solitaire
+R|win
+R|word
+R|exe
+R|zzz
+R|real
+R|age emp
+R|EXPLOR
+R|
+D|letters|Letter to the bank.doc
+D||Budget 1999.xls
+D|photos|Winamp skins.txt
+Q|budget
+Q|letter
+Q|winamp
+Q|bank doc
+Q|documents
+X|2+2
+X|12*4+2
+X|(1+2)*3
+X|10/4
+X|1,5+2
+X|2^10
+X|-2^2
+X|2^-1
+X|sqrt(16)+1
+X|SQRT(2)
+X|0.1+0.2
+X|1000000*1000000
+X|5 - 8
+X|1/0
+X|98
+X|-5
+X|(5)
+X|7-zip
+X|3d
+X|2+
+X|1 000
+X|c++
+W|www.example.com
+W|http://example.com/page
+W|mailto:someone@example.com
+W|hello world
+W|C:\
+W|Z:\NOPE\FILE.TXT
+W|ab
+W|zzzqqq
+Q|restart
+Q|log off
+Q|dos
+Q|standby
+Q|w
+L|15|WordPerfect 9
+Q|w
+Q|wo
+L|0|WordPerfect 9
+H|3|app:winamp
+H|61|app:fifa 99
+H|1|app:notepad
+M|c:\program files\winamp|winamp|Winamp (remove only)|"C:\Program Files\Winamp\UNINSTWA.EXE"
+M|-|winamp|Winamp (remove only)|C:\WINDOWS\uninst.exe
+M|c:\program files\microsoft office\office|microsoft word|Microsoft Office 2000 Premium|C:\WINDOWS\SYSTEM\msiexec.exe /i {00000409}
+M|c:\games\fifa99|fifa 99|FIFA 99|C:\WINDOWS\IsUninst.exe -f"C:\Games\FIFA99\Uninst.isu"
+M|-|word|WordPerfect Office 2000|C:\X\SETUP.EXE /U
+M|-|icq|ICQ|C:\ICQ\UNINST.EXE
+M|c:\tools|7-zip file manager|7-Zip 9.20|"C:\Program Files\7-Zip\Uninstall.exe"
+O|!new|x
+O|Winamp|Media & Graphics
+O|Old Program|Office
+O|winamp|hide
+O|A=B Tool|Utilities
+V|800x600
+V|1024x768 16
+V|1024 x 768 32 bit
+V|640X480 8
+V|800x600 15
+V|1600x1200
+V|3x4
+V|800x
+V|x600
+V|12x
+V|800x600 bit
+Z|shutdown in 30
+Z|shut down in 1
+Z|restart in 10 min
+Z|Reboot in 90 minutes
+Z|shutdown in 0
+Z|shutdown in 2000
+Z|shutdown
+Z|restart in ten
+Z|shutdown in 5 hours
+B|
+B|real
+B|tray
+B|startup
+B|zzz
+K|Desinstalar PCFutbol 6 - Apertura 98-99
+K|Deinstallation
+K|Instalar

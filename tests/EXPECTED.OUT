@@ -1,0 +1,258 @@
+C|FIFA 99|Games
+C|World Cup 98|Games
+C|Commandos|Games
+C|The Sims|Games
+C|SimCity 3000 Unlimited|Games
+C|Midtown Madness 2|Games
+C|Age of Empires II|Games
+C|Duke Nukem 3D|Games
+C|Tomb Raider II|Games
+C|Solitaire|Games
+C|Black Dahlia|Games
+C|PC Futbol 6|Games
+C|Internet Explorer|Internet
+C|Outlook Express|Internet
+C|Netscape Communicator|Internet
+C|ICQ|Internet
+C|AOL Instant Messenger (TM)|Internet
+C|mIRC|Internet
+C|Opera 5|Internet
+C|RetroZilla|Internet
+C|Napster Music Community|Internet
+C|Publish|Internet
+C|Microsoft Word|Office
+C|Microsoft Excel|Office
+C|Microsoft Outlook|Office
+C|Microsoft Access|Office
+C|WordPerfect 9|Office
+C|Quicken 2000|Office
+C|Microsoft Money|Office
+C|Encarta Encyclopedia 2000|Office
+C|Acrobat Reader 5.0|Office
+C|The Print Shop|Office
+C|Winamp|Media & Graphics
+C|Start Sonique|Media & Graphics
+C|RealPlayer Basic|Media & Graphics
+C|QuickTime Player|Media & Graphics
+C|Windows Media Player|Media & Graphics
+C|musicmatch JUKEBOX|Media & Graphics
+C|ACDSee 32|Media & Graphics
+C|Paint Shop Pro 7|Media & Graphics
+C|Adobe Photoshop 5.5|Media & Graphics
+C|Nero - Burning Rom|Media & Graphics
+C|DAEMON Tools|Media & Graphics
+C|The Playa|Media & Graphics
+C|Microsoft Visual Basic 6.0|Development
+C|MSDN Library - October 2001|Development
+C|Delphi 6|Development
+C|Free Pascal IDE|Development
+C|UltraEdit-32|Development
+C|EditPlus 2|Development
+C|Java Web Start|Development
+C|Python (command line)|Development
+C|Dreamweaver 4|Development
+C|WinRAR|Utilities
+C|Total Commander|Utilities
+C|3DMark2001 SE|Utilities
+C|Norton Utilities|Utilities
+C|WinZip|Utilities
+C|Notepad|Accessories
+C|Calculator|Accessories
+C|Paint|Accessories
+C|ScanDisk|System
+C|Disk Defragmenter|System
+C|Windows Explorer|System
+C|MS-DOS Prompt|System
+C|Windows Update|System
+C|Animation Shop 3|Media & Graphics
+C|JRun Administrator|Development
+C|JVM Wizard|Development
+C|Macromedia Extension Manager|Development
+C|Personal Web Manager|Development
+C|Firebird Control Panel|Development
+C|ActiveX Control Test Container|Development
+C|Microsoft Visual C++ 6.0|Development
+C|Age of Empires|Games
+C|Go!Zilla|Internet
+C|K-Meleon|Internet
+C|Dr. Watson|System
+C|WS_FTP LE|Other
+C|mIRC|Internet
+C|Paint Shop Pro 7|Media & Graphics
+C|Imaging|Accessories
+C|Zip Magic|Utilities
+C|Unzipper|Other
+C|Rainbow Six|Other
+C|Rain|Utilities
+C|Jukebox|Media & Graphics
+C|The Wordsmith|Other
+C|Wordpad|Accessories
+C|Chatterbox|Other
+C|Chat|Internet
+C|Simsalabim|Other
+C|PC Fútbol 6|Games
+C|Something Unknown|Other
+C|3D Pinball|Games
+C|Accessibility Wizard|Accessories
+C|Tweak UI|Utilities
+C|C++Builder 5|Development
+K|Uninstall Winamp|skip
+K|Readme|skip
+K|Winamp Help|skip
+K|Release Notes|skip
+K|Winamp on the Web|skip
+K|ICQ Web Site|skip
+K|License|skip
+K|Setup|skip
+K|Winamp|keep
+K|Helpful Tool|keep
+K|Microsoft Word|keep
+K|Registry Editor|keep
+K|Online|skip
+K|Apache Docs Online|skip
+K|Remove|skip
+K|Setup Wizard|keep
+K|Install|skip
+K|InstallShield Tool|keep
+K|Docs|skip
+K|Doctor|keep
+K|Whats New|skip
+K|What's New|skip
+K|Licence|skip
+K|Removable Disk|keep
+Q|win|Winamp | WinRAR | WinZip
+Q|wina|Winamp
+Q|fifa|FIFA 99
+Q|mm|Microsoft Money | Midtown Madness 2 | Commandos
+Q|aoe|Age of Empires | Age of Empires II
+Q|resolution|Display
+Q|uninstall|Add/Remove Programs
+Q|word|Wordpad | WordPerfect 9 | The Wordsmith
+Q|visual basic|Microsoft Visual Basic 6.0
+Q|dos|MS-DOS Prompt | Restart in MS-DOS Mode | Commandos
+Q|sh|Show Desktop | Shut Down... | The Print Shop
+Q|device|Device Manager
+Q|photo|Adobe Photoshop 5.5
+Q|cal|Calculator | Free Pascal IDE | Regional Settings
+Q|zzz|
+Q|a|ACDSee 32 | Age of Empires | Animation Shop 3
+Q|ms|MS-DOS Prompt | MSDN Library - October 2001 | Restart in MS-DOS Mode
+Q|net|Network | Netscape Communicator | Internet Options
+Q|c++|C++Builder 5 | Microsoft Visual C++ 6.0
+Q|paint shop|Paint Shop Pro 7
+Q|games|3D Pinball | Age of Empires | Age of Empires II
+Q|settings|Regional Settings | Control Panel | Accessibility Options
+Q|office|WordPerfect 9 | Acrobat Reader 5.0 | Encarta Encyclopedia 2000
+Q|dx|DirectX Diagnostics
+Q|reg|Registry Editor | Regional Settings
+Q|shut down|Shut Down...
+P|0|Winamp|added|winamp
+P|1|FIFA 99|added|winamp, fifa 99
+P|0|The Sims|added|the sims, winamp, fifa 99
+P|9|Notepad|added|the sims, winamp, fifa 99, notepad
+P|2|Age of Empires II|added|the sims, winamp, age of empires ii, fifa 99, notepad
+P|0|Solitaire|full|the sims, winamp, age of empires ii, fifa 99, notepad
+P|0|Notepad|moved|notepad, the sims, winamp, age of empires ii, fifa 99
+P|5|Notepad|moved|the sims, winamp, age of empires ii, fifa 99, notepad
+P|3|The Sims|moved|winamp, age of empires ii, the sims, fifa 99, notepad
+P|1|Winamp|moved|winamp, age of empires ii, the sims, fifa 99, notepad
+U|1|winamp, the sims, fifa 99, notepad
+U|7|winamp, the sims, fifa 99, notepad
+P|4|Solitaire|added|winamp, the sims, fifa 99, notepad, solitaire
+R|win|Document1 - Microsoft Word | Winamp 2.95
+R|word|Document1 - Microsoft Word
+R|exe|Document1 - Microsoft Word | Winamp 2.95 | Exploring - C:\My Documents | Inbox - Outlook Express | Age of Empires II | SYSTRAY.EXE | REALPLAY.EXE | ICQNET.EXE
+R|zzz|
+R|real|REALPLAY.EXE
+R|age emp|Age of Empires II
+R|EXPLOR|Exploring - C:\My Documents
+R||Document1 - Microsoft Word | Winamp 2.95 | Exploring - C:\My Documents | Inbox - Outlook Express | Age of Empires II | SYSTRAY.EXE | REALPLAY.EXE | ICQNET.EXE
+D|Letter to the bank.doc|Documents
+D|Budget 1999.xls|Documents
+D|Winamp skins.txt|Documents
+Q|budget|Budget 1999.xls
+Q|letter|Letter to the bank.doc
+Q|winamp|Winamp | Winamp skins.txt
+Q|bank doc|Letter to the bank.doc
+Q|documents|Budget 1999.xls | Letter to the bank.doc | Winamp skins.txt
+X|2+2|4
+X|12*4+2|50
+X|(1+2)*3|9
+X|10/4|2.5
+X|1,5+2|3.5
+X|2^10|1024
+X|-2^2|-4
+X|2^-1|0.5
+X|sqrt(16)+1|5
+X|SQRT(2)|1.414213562
+X|0.1+0.2|0.3
+X|1000000*1000000|1000000000000
+X|5 - 8|-3
+X|1/0|not a sum
+X|98|not a sum
+X|-5|not a sum
+X|(5)|not a sum
+X|7-zip|not a sum
+X|3d|not a sum
+X|2+|not a sum
+X|1 000|not a sum
+X|c++|not a sum
+W|www.example.com|Open www.example.com
+W|http://example.com/page|Open http://example.com/page
+W|mailto:someone@example.com|Open mailto:someone@example.com
+W|hello world|no
+W|C:\|Open C:\
+W|Z:\NOPE\FILE.TXT|no
+W|ab|no
+W|zzzqqq|no
+Q|restart|Restart Windows | Restart in MS-DOS Mode | Shut Down...
+Q|log off|Log Off
+Q|dos|MS-DOS Prompt | Restart in MS-DOS Mode | Commandos
+Q|standby|Power Management | Stand By
+Q|w|Winamp | WinRAR | WinZip
+L|15|WordPerfect 9
+Q|w|WordPerfect 9 | Winamp | WinRAR
+Q|wo|WordPerfect 9 | Wordpad | World Cup 98
+L|0|WordPerfect 9
+H|3|app:winamp|3|app:winamp=3
+H|61|app:fifa 99|30|app:winamp=1, app:fifa 99=30
+H|1|app:notepad|1|app:winamp=1, app:fifa 99=30, app:notepad=1
+M|winamp|winamp (remove only)|folder
+M|winamp|winamp (remove only)|name
+M|microsoft word|microsoft office 2000 premium|no
+M|fifa 99|fifa 99|folder
+M|word|wordperfect office 2000|no
+M|icq|icq|no
+M|7-zip file manager|7-zip 9.20|no
+O|Winamp|Media & Graphics|# a comment stays ; Old Program=Games ; Winamp=Media & Graphics
+O|Old Program|Office|# a comment stays ; Winamp=Media & Graphics ; Old Program=Office
+O|winamp|hide|# a comment stays ; Old Program=Office ; winamp=hide
+O|A=B Tool|Utilities|# a comment stays ; Old Program=Office ; winamp=hide ; A=B Tool=Utilities
+V|800x600|Change the screen to 800 x 600, High Color (16 bit)
+V|1024x768 16|Change the screen to 1024 x 768, High Color (16 bit)
+V|1024 x 768 32 bit|Change the screen to 1024 x 768, True Color (32 bit)
+V|640X480 8|Change the screen to 640 x 480, 256 colors
+V|800x600 15|no
+V|1600x1200|no
+V|3x4|no
+V|800x|no
+V|x600|no
+V|12x|no
+V|800x600 bit|no
+Z|shutdown in 30|Shut down Windows in 30 minutes
+Z|shut down in 1|Shut down Windows in 1 minute
+Z|restart in 10 min|Restart Windows in 10 minutes
+Z|Reboot in 90 minutes|Restart Windows in 90 minutes
+Z|shutdown in 0|no
+Z|shutdown in 2000|no
+Z|shutdown|no
+Z|restart in ten|no
+Z|shutdown in 5 hours|no
+B||ICQ NetDetect Agent (off) | LoadPowerProfile | Microsoft Office | QuickTime Task (off) | RealTray (off) | ScanRegistry | Searchlight 98 | SystemTray
+B|real|RealTray (off)
+B|tray|RealTray (off) | SystemTray
+B|startup|ICQ NetDetect Agent (off) | Microsoft Office
+B|zzz|
+K|Desinstalar PCFutbol 6 - Apertura 98-99|skip
+K|Deinstallation|skip
+K|Instalar|keep
