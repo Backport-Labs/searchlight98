@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Get the compiler and the setup builder
         shell: powershell
@@ -54,14 +54,14 @@ jobs:
 
       - name: Keep the self-test output
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: selftest
           path: build/out/selftest/SELFTEST.OUT
           if-no-files-found: ignore
 
       - name: Keep the setup program
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: SL98SETUP
           path: dist/SL98SETUP.EXE
