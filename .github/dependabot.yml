@@ -1,0 +1,17 @@
+# Dependabot proposes updates of the actions used by the workflows.
+#
+# Version updates stay within the major version in use. Moving to a new major
+# version is done by hand, after reading what it changes.
+#
+# The rule below applies to version updates only. Security updates are not
+# held back by it and may move to a new major version.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
