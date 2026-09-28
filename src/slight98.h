@@ -133,7 +133,7 @@ typedef LONG (WINAPI *RESOURCES_FN)(int);
  * Constants, types and the state the files share
  * --------------------------------------------------------------------- */
 #define APP_NAME     "Searchlight 98"
-#define APP_VERSION  "0.3.3"
+#define APP_VERSION  "0.3.4"
 
 #define WM_TRAY      (WM_APP + 1)
 #define ID_OPEN      101

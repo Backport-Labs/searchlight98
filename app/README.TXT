@@ -1,5 +1,5 @@
                               SEARCHLIGHT 98
-                               Version 0.3.3
+                               Version 0.3.4
 
             Find and start any program on your computer. Fast.
 
@@ -243,6 +243,9 @@ Add/Remove. Or use "Uninstall Searchlight 98" in the Start Menu.
 -----------------------------------------------------------------------------
  7. VERSION HISTORY
 -----------------------------------------------------------------------------
+ Version 0.3.4
+ - Searchlight 98 is now published by Backport Labs.
+
  Version 0.3.3
  - The top edge of the darkened background is no longer darker than
    the rest of it.

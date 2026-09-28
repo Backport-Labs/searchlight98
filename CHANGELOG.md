@@ -5,6 +5,10 @@ All notable changes to Searchlight 98 are recorded in this file. Versions follow
 
 ## Unreleased
 
+No changes yet.
+
+## 0.3.4 - 2026-09-28
+
 ### Changed
 
 - Searchlight 98 is published by Backport Labs. The license, the setup program, the About box and
