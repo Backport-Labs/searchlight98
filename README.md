@@ -181,7 +181,7 @@ depend on the computer it runs on.
 
 | Path | Contents |
 |---|---|
-| `src/slight98.c` | The program |
+| `src/*.c`, `src/slight98.h` | The program. See [Source files](#source-files) |
 | `src/icon.h` | The program icon as C data, generated from `app/SLIGHT98.ICO` |
 | `src/*.def` | Import definitions for system libraries not covered by the compiler |
 | `app/` | Files installed with the program: user guide, `CATEGORY.TXT`, icon |
@@ -192,10 +192,36 @@ depend on the computer it runs on.
 | `docs/` | Screenshots |
 | `.github/` | Build workflow, issue and pull request templates |
 
+### Source files
+
+| File | Contents |
+|---|---|
+| `slight98.h` | Constants, types, the shared state, and the functions each file offers to the others |
+| `main.c` | Start-up, the background window that receives the hotkeys, the tray icon |
+| `common.c` | Shared state and small helpers |
+| `catalog.c` | The list of programs, settings and documents: scanning the Start Menu, grouping |
+| `state.c` | Favorites, recent programs and usage counts, kept in `STATE.TXT` |
+| `icons.c` | Icons of programs and files |
+| `search.c` | Searching and ranking |
+| `commands.c` | Calculations, commands to run, screen modes, countdowns, shutting down |
+| `running.c` | Running programs, their memory, and the gauges |
+| `startup.c` | Programs that start with Windows |
+| `hotkey.c` | Hotkeys and the settings kept in the registry |
+| `backdrop.c` | The blurred, darkened picture behind the panel |
+| `panel.c` | The panel: layout, contents, opening and closing |
+| `actions.c` | What happens when an entry is chosen: starting, pinning, closing, the right-click menu |
+| `draw.c` | Drawing the panel |
+| `input.c` | Mouse and keyboard handling, drag and drop |
+| `dialogs.c` | The Hotkeys, Options and About boxes |
+| `test.c` | The self-test and rendering the panel to a bitmap |
+
+All files are compiled and linked in one step. A function or variable used by one file only is
+declared `static` in that file.
+
 ## Implementation notes
 
 **Grouping.** The Start Menu folder names and the name of each shortcut are matched against an
-ordered list of keyword rules (`g_rules` in `slight98.c`). The first matching rule determines the
+ordered list of keyword rules (`g_rules` in `catalog.c`). The first matching rule determines the
 group. Entries in `CATEGORY.TXT` take precedence.
 
 **Memory.** Searchlight stays loaded, so its idle footprint is kept small.
