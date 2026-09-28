@@ -25,7 +25,9 @@ if (-not (Test-Path (Join-Path $src 'icon.h'))) {
 
 Write-Host 'Compiling SLIGHT98.EXE...'
 $exe = Join-Path $out 'SLIGHT98.EXE'
-& $Tcc -mwindows -Wall -o $exe (Join-Path $src 'slight98.c') `
+# A function that one file uses and slight98.h does not declare stops the build.
+$sources = @(Get-ChildItem (Join-Path $src '*.c') | Sort-Object Name | ForEach-Object FullName)
+& $Tcc -mwindows -Wall -Wimplicit-function-declaration -Werror -o $exe @sources `
     (Join-Path $src 'shell32.def') (Join-Path $src 'advapi32.def') (Join-Path $src 'ole32.def') `
     -luser32 -lkernel32 -lgdi32
 if ($LASTEXITCODE -ne 0) { throw 'Compiling SLIGHT98.EXE failed.' }
