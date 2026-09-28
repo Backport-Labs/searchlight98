@@ -177,6 +177,7 @@ static void PaintAbout(HDC dc)
 
     SetTextColor(dc, GetSysColor(COLOR_BTNTEXT));
     AboutLine(dc, 16, &y, "Version " APP_VERSION " for Windows 95 and Windows 98");
+    AboutLine(dc, 16, &y, "Copyright (C) 2026 Backport Labs");
     AboutLine(dc, 16, &y, "Free and open source software, released under the MIT License.");
     y += 10;
     AboutLine(dc, 16, &y, "This product is licensed to:");

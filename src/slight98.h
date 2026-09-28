@@ -519,7 +519,7 @@ void CreatePanel(void);
 
 /* dialogs.c: the Hotkeys, Options and About boxes */
 #define ABOUT_W 400
-#define ABOUT_H 270
+#define ABOUT_H 286
 #define OPT_W 360
 #define OPT_H 332
 LRESULT CALLBACK SettingsProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp);
