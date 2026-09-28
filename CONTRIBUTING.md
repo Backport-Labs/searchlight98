@@ -49,7 +49,7 @@ Run the build script. It fails if the output of the self-test differs from `test
 
 When a change affects behaviour covered by the self-test, add lines to `tests\TESTS.TXT` and the
 matching lines to `tests\EXPECTED.OUT`. The line formats are described by the comments in
-`SelfTest` in `src\slight98.c`.
+`SelfTest` in `src\test.c`.
 
 Changes to the user interface should be checked with `/shot`, which renders the panel to a bitmap,
 and on Windows 98 itself, on hardware or in a virtual machine. State in the pull request which
@@ -69,6 +69,10 @@ programs, startup entries and documents.
   versions is looked up at run time with `GetProcAddress`, and the program must work without it.
 - **Character set.** Use the ANSI variants of Windows functions. Windows 95 and 98 do not
   implement most Unicode variants.
+- **Source files.** Each file in `src` covers one area, listed in `README.md`. A function or
+  variable used by one file only is declared `static` in that file. One that other files use is
+  declared in `src\slight98.h`, under the name of the file that defines it. The build compiles
+  every `.c` file in `src` and stops on a call to a function that is not declared.
 - **Dependencies.** Do not add libraries. Imports from system libraries that the compiler does
   not cover are listed in `src\*.def`.
 - **Memory.** Allocate tables when they are needed and free them when they are not. Avoid
@@ -94,7 +98,7 @@ are restricted.
 ## Versions
 
 Versions follow the form `0.MINOR.PATCH`. The minor number changes with new features, the patch
-number with fixes and smaller changes. The version is set in `APP_VERSION` in `src\slight98.c`
+number with fixes and smaller changes. The version is set in `APP_VERSION` in `src\slight98.h`
 and in `AppVersion` in `installer\SLIGHT98.ISS`.
 
 ## License
