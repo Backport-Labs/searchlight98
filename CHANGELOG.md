@@ -5,6 +5,10 @@ All notable changes to Searchlight 98 are recorded in this file. Versions follow
 
 ## Unreleased
 
+No changes yet.
+
+## 0.3.3 - 2026-09-28
+
 ### Changed
 
 - The source code is divided into one file for each area of the program, with a shared header.
