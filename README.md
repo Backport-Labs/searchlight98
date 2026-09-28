@@ -1,7 +1,7 @@
 # Searchlight 98
 
-[![Build](https://github.com/sguri/searchlight98/actions/workflows/build.yml/badge.svg)](https://github.com/sguri/searchlight98/actions/workflows/build.yml)
-[![Release](https://img.shields.io/github/v/release/sguri/searchlight98)](https://github.com/sguri/searchlight98/releases/latest)
+[![Build](https://github.com/Backport-Labs/searchlight98/actions/workflows/build.yml/badge.svg)](https://github.com/Backport-Labs/searchlight98/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/Backport-Labs/searchlight98)](https://github.com/Backport-Labs/searchlight98/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.TXT)
 
 A keyboard-driven program launcher for Windows 95 and Windows 98.
@@ -90,7 +90,7 @@ Searchlight also runs on Windows NT 4.0 and Windows 2000, with the limitations l
 ## Installation
 
 Download the latest version from the
-[Releases](https://github.com/sguri/searchlight98/releases/latest) page. Each release provides:
+[Releases](https://github.com/Backport-Labs/searchlight98/releases/latest) page. Each release provides:
 
 | File | Use |
 |---|---|

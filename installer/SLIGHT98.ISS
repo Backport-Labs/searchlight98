@@ -10,8 +10,8 @@
 AppName={#AppName}
 AppVersion={#AppVersion}
 AppVerName={#AppName} version {#AppVersion}
-AppPublisher=Sebastián Gurí
-AppCopyright=Copyright (C) 2026 Sebastián Gurí
+AppPublisher=Backport Labs
+AppCopyright=Copyright (C) 2026 Backport Labs
 AppComments=A quick launcher for Windows 98
 DefaultDirName={pf}\{#AppName}
 DefaultGroupName={#AppName}
