@@ -11,6 +11,11 @@ All notable changes to Searchlight 98 are recorded in this file. Versions follow
   The program itself is unchanged.
 - The build stops on a call to a function that is not declared.
 
+### Fixed
+
+- The top four rows of the backdrop were drawn from memory that had not been filled, which made
+  them darker than the rest.
+
 ## 0.3.2 - 2026-09-28
 
 First public release.

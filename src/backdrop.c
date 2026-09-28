@@ -165,7 +165,7 @@ void PaintBackdrop(HDC dc, const RECT *area)
     BITMAPINFO bi;
     BYTE *band, *rowA, *rowB, *swap;
     RECT r = *area;
-    int w = g_dimW, n = w * 3, stride = (n + 3) & ~3, top, i, x, have = -1;
+    int w = g_dimW, n = w * 3, stride = (n + 3) & ~3, top, i, x, have = -2;    /* -2: no row is ready yet */
     if (r.left < 0) r.left = 0;
     if (r.top < 0) r.top = 0;
     if (r.right > g_dimW) r.right = g_dimW;
